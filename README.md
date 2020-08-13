@@ -33,16 +33,16 @@ The whole procedure above was then replicated once more to create another 8 runs
 Due to the response variable being continuous, a linear model was fitted onto the full set of data points collected.Using this linear model, we have also created a half-normal plot to further observe which factors were most significant in this study. Furthermore, we can also describe the linear model by the following equation below:
 
 Yi = β<sub>0</sub> + β<sub>1</sub>S + β<sub>2</sub>M + β<sub>3</sub>A + β<sub>4</sub>SM + β<sub>5</sub>SA + β<sub>6</sub>AM + β<sub>7</sub>SMA + Ɛ<sub>i</sub> where i represents the ith run 
--	Yi represents the period of the pendulum for the ith experimental run
+-	Y<sub>i</sub> represents the period of the pendulum for the ith experimental run
 -	S represents the pendulum’s String Length factor; with levels -1 = 10 cm and 1 = 50cm
 -	M represents the pendulum’s Mass factor; with levels -1 = 100g and 1 = 300g
 -	A represents the pendulum’s Amplitude; with levels -1 = 15 degrees and 1 = 65 degrees 
--	Ɛi is the error 
+-	Ɛ<sub>i</sub> is the error 
 
 ## Results
 Upon viewing the 2 tables below, it is clear that both methods seem to suggest that a pendulum’s string length, amplitude, and their interaction has a significant effect on the period of the pendulum. In the first table, we see that the factors which do not include 0 are: string length, amplitude, and the string length & amplitude interaction. Similarly, in our linear model, the coefficients which have significant p-values (i.e. less that our significance level of 5%) are the same as the factors in the first table.
 
-<img src="imgs/table2.PNG"  width = 550/>
+<img src="imgs/table2.PNG"  width = 600/>
 <img src="imgs/table3.png"  width = 525/>
 
 To further support the significance of these 3 effects, the half-normal plot below indicates that string length has the highest effect on the period. After string length, we see that amplitude has the second highest effect. And lastly, the interaction effect between the string length and the amplitude appears to have the least significant effect on the period; however, it is still more significant than the mass; mass & amplitude interaction; string length & mass interaction; and the 3-factor interaction effect. 

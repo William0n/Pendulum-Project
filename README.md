@@ -25,7 +25,7 @@ To start the first run of the experiment, a 100g mass was attached to a 10cm str
 The whole procedure above was then replicated once more to create another 8 runs. Below, shows my general setup of the experiment, and the data collected on the excel spreadsheet.
 
 
-<img src="imgs/table1.PNG"  width = 250/>
+<img src="imgs/table1.png"  width = 500/>
 
 **Note:** The data from the first run/trial are Samples 1,3,5,7,…,15
 
@@ -42,13 +42,17 @@ Yi = β<sub>0</sub> + β<sub>1</sub>S + β<sub>2</sub>M + β<sub>3</sub>A + β<s
 ## Results
 Upon viewing the 2 tables below, it is clear that both methods seem to suggest that a pendulum’s string length, amplitude, and their interaction has a significant effect on the period of the pendulum. In the first table, we see that the factors which do not include 0 are: string length, amplitude, and the string length & amplitude interaction. Similarly, in our linear model, the coefficients which have significant p-values (i.e. less that our significance level of 5%) are the same as the factors in the first table.
 
-<img src="imgs/table2.PNG"  width = 250/>
-<img src="imgs/table3.PNG"  width = 250/>
+<img src="imgs/table2.PNG"  width = 550/>
+<img src="imgs/table3.png"  width = 525/>
 
 To further support the significance of these 3 effects, the half-normal plot below indicates that string length has the highest effect on the period. After string length, we see that amplitude has the second highest effect. And lastly, the interaction effect between the string length and the amplitude appears to have the least significant effect on the period; however, it is still more significant than the mass; mass & amplitude interaction; string length & mass interaction; and the 3-factor interaction effect. 
 
-<img src="imgs/graph1.PNG"  width = 250/>
+<img src="imgs/graph1.png"  width = 500/>
 
 ## Conclusion 
 
 From our previous plot and tables, we have strong evidence to conclude that a pendulum’s period is primarily affected by its string length. In other words, a pendulum which is suspended by a longer string will have a larger increase in its period in comparison to a shorter string. Secondly, we have also observed that a pendulum’s amplitude can also have a significant effect on the period. By increasing the amplitude of the pendulum, we have seen that the period also increases; however, it is worth noting that the increase in the period is not as large here as it is in the previous case. Furthermore, if both the string length and amplitude are increased, we will see relatively small increases to the period (as seen from the calculated values and coefficients for the “String.Length: Amplitude” interaction effect in contrast to the main effects of string length and amplitude). Lastly, of the 3 factors which were analysed, only 1 of 3 factors were not significant. The mass of the pendulum appears to have no significant effect on the period, thus, the increase or decrease of the weight will not result in a big change to the period’s time.
+
+
+## Note
+Full detailed report can be found [here](https://github.com/William0n/Pendulum-Project/blob/master/Pendulum%20experiment%20report.pdf)
